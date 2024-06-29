@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image:url(imagens/batmovel.jpg);
+    color: #f0f0f0; 
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.nav-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #2b2b2b; 
+    padding: 10px 0;
+    box-shadow: 0 4px 8px #9e6f39;
+    position: fixed;
+    top: 0; 
+    z-index: 999; 
+}
+
+.nav-buttons button {
+    background-color: #9e6f39;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0 5px;
+}
+
+.nav-buttons button:hover {
+    background-color: #794203; 
+}
+
+.container {
+    background-color: #2a2a2ac9; 
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #a16f36;
+    text-align: center;
+    width: 80%;
+    max-width: 800px;
+    margin-top: 500px; 
+}
+
+h1, h2 {
+    color: #9e6f39;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #9e6f39; 
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #9e6f39; 
+    border-radius: 4px;
+    background-color: #333;
+    color: #f0f0f0;
+}
+
+button {
+    background-color: #9e6f39;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #944f00;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #9e6f39;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: #9e6f39;
+}
+
+td {
+    background-color: #2a2a2a;
+    color: #f0f0f0;
+}
+
+.actions button {
+    background-color: #9e6f39;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.actions button:hover {
+    background-color: #9e6f39;
+}
+
+.actions .edit {
+    margin-right: 5px;
+}

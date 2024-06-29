@@ -1,0 +1,128 @@
+/* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+body {
+    background-image:url(imagens/Saladecontrole2.jpg);
+    color: #f0f0f0; 
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+
+.nav-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #2a2a2a; 
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 47, 255, 0.3);
+    position: fixed;
+    top: 0; 
+    z-index: 999; 
+}
+
+
+.nav-buttons button {
+    background-color: #39458b;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0 5px;
+}
+
+.nav-buttons button:hover {
+    background-color: #0011ff;
+}
+.container {
+    background-color: #222222cb;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(9, 24, 236, 0.3);
+    text-align: center;
+    width: 80%;
+    max-width: 800px;
+}
+
+h1, h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #ffffff;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #312a8b; 
+    border-radius: 4px;
+    background-color: #333;
+    color: #f0f0f0;
+}
+
+button {
+    background-color: #282e77; 
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0501ff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #1a1da1; 
+    text-align: left;
+}
+
+th {
+    background-color: #333; 
+    color: #ffffff;
+}
+
+td {
+    background-color: #2a2a2a;
+    color: #f0f0f0;
+}
+
+.actions button {
+    background-color: #242a8b; 
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.actions button:hover {
+    background-color: #1a17d3;
+}
+
+.actions .edit {
+    margin-right: 5px;
+}
